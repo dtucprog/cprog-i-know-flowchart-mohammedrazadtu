@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="CnNNywff8WgR4Mlmuihx">
+    <mxGraphModel dx="576" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-6" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.0000000000001" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-77" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-75" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-75" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="input number of people" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-79" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-76" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-78" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-76" parent="1" style="whiteSpace=wrap;html=1;" value="set total =0 count =1" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-80" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-78" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-81" value="yes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.0000000000001" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-82" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-78" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-83" value="no">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-78" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="is count &amp;lt;= n" vertex="1">
+          <mxGeometry height="170" width="145" x="352" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-85" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-81" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-84" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="input&amp;nbsp; contribution for person" vertex="1">
+          <mxGeometry height="60" width="120" x="220.0000000000001" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="output total" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-87" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-84" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-86" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-84" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="total = the total amount plus the contribution" vertex="1">
+          <mxGeometry height="60" width="120" x="220.0000000000001" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-88" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-86" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="px7RpriWQ2lg9oH3VO8C-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-86" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="count&amp;nbsp; the total amount + 1" vertex="1">
+          <mxGeometry height="60" width="120" x="220.0000000000001" y="1170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
