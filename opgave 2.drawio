@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="CnNNywff8WgR4Mlmuihx">
+    <mxGraphModel dx="921" dy="1227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-6" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-8" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="Input total days" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-10" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Calculate day 1 distance = 3h *20km/h" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-12" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-9" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Calculate the remaining days&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-14" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="total distance = day 1 distance + the remaining days distance" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-16" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="output total distance" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="end" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="1190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

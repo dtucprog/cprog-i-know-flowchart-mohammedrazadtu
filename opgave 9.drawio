@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="CnNNywff8WgR4Mlmuihx">
+    <mxGraphModel dx="576" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-91" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-89" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.0000000000001" y="229.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-94" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-92" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-92" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="input, find the string length plus the length of the piece&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-98" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-93" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-97" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-93" parent="1" style="whiteSpace=wrap;html=1;" value="piece count = floor( the length of the string plus the piece of length" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-100" edge="1" parent="1" source="px7RpriWQ2lg9oH3VO8C-97" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="px7RpriWQ2lg9oH3VO8C-99" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-97" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="output piece count" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="px7RpriWQ2lg9oH3VO8C-99" parent="1" style="whiteSpace=wrap;html=1;" value="end" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="750" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
